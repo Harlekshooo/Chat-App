@@ -50,17 +50,16 @@ const body = () => {
     };
 
     chatArr.push(senderChat);
-    if (messageValue == "") {
-      chatArr.push("");
-    }
+    setDisplayBtn(true)
     localStorage.setItem("send", JSON.stringify(chatArr));
-    // setChatArr(chatArr)
-    // console.log(chatArr)
   };
 
-  // let newSend = JSON.parse(localStorage.getItem("send"))
-  // console.log('chatarr', chatArr)
-  // localStorage.clear()
+  const handleClearClick = () => {
+    localStorage.clear()
+    setChatArr([])
+  }
+
+  
 
   return (
     <div className="bodyContainer">
@@ -104,6 +103,7 @@ const body = () => {
 
         <div className="textAreaCont">
           <div className="innerTextAreaCont">
+          <button onClick={handleClearClick} className="clearChat"> clear</button>
             <textarea
             onChange={textChange}
             className="typeMessage"

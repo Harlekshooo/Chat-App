@@ -94,6 +94,7 @@
     /* margin-bottom:1rem; */
 }
 
+
 .textAreaCont{
     width:100%;
     position:fixed;
@@ -107,6 +108,16 @@
     gap:0.5rem;
     width:95%;
     margin:auto;
+}
+
+.clearChat{
+    border-radius:0.5rem;
+    width:5rem;
+    font-size:1rem;
+    text-transform:capitalize;
+    border:none;
+    background-color:#963896;
+    color:#fff;
 }
 
 .typeMessage{
@@ -148,6 +159,104 @@
         margin:auto;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:640px) {
+
+    .message{
+        font-size:1.2rem;
+    }
+
+    .response{
+        font-size:1.2rem;
+    }
+
+    .typeMessage{
+        font-size:1.2rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 768px) {
+
+    .message{
+        font-size:1.3rem;
+    }
+
+    .response{
+        font-size:1.3rem;
+    }
+
+    .clearChat{
+        font-size:1.3rem;
+        width:6rem;
+    }
+
+    .innerTextAreaCont{
+        width:50%;
+    }
+
+    .typeMessage{
+        font-size:1.3rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 992px) {
+
+    .message{
+        font-size:1.3rem;
+    }
+
+    .response{
+        font-size:1.3rem;
+    }
+
+    .clearChat{
+        font-size:1.3rem;
+        width:6rem;
+    }
+
+    .innerTextAreaCont{
+        width:50%;
+    }
+
+    .typeMessage{
+        font-size:1.3rem;
+    }
+}
+
+
 
 
 
