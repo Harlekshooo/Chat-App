@@ -1,0 +1,43 @@
+
+
+.homescreenContainer{
+    background-image:url(../../assets/chatBackgroundImage.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    height:100vh;
+    overflow-x:hidden;
+    display:flex;
+    flex-direction:column;
+}
+
+.homescreenHeader{
+    color:#6d066d;
+    font-size:2rem;
+    text-align:center;
+    text-transform:uppercase;
+    width:80%;
+    margin:auto;
+}
+
+.btnContainer{
+    width:80%;
+    margin:auto;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.log{
+    height:2.5rem;
+    width:100%;
+    background-color:#6d066d;
+    color:#fff;
+    border:none;
+    text-transform:uppercase;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:1.3rem;
+    /* margin:auto; */
+}
+
+
+
