@@ -31,6 +31,7 @@
     height:2.5rem;
     width:100%;
     background-color:#6d066d;
+    border-radius:0.5rem;
     color:#fff;
     border:none;
     text-transform:uppercase;
@@ -39,5 +40,69 @@
     /* margin:auto; */
 }
 
+.log:hover{
+    background-color:#562556;
+    cursor:pointer;
+    transition:all linear 0.5s;
+}
 
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:640px){
+
+    .log{
+        width:12rem;
+        height:3rem;
+        font-size:1.3rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:768px){
+
+    .log{
+        width:13rem;
+        height:3.5rem;
+        font-size:1.4rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:992px){
+
+    .log{
+        width:13rem;
+        height:3.5rem;
+        font-size:1.5rem;
+    }
+}
 
